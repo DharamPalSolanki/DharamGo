@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "947444318807",
+    "project_id": "dharamgo-163014"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947444318807:android:a7029f55cf442a78",
+        "android_client_info": {
+          "package_name": "com.example.dharampalsolanki.dharamgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947444318807-dng88039n5hnjcdhbnh6ha8po3p70v6e.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "947444318807-bqn2enhlcto40bqpfov8angu20erfi6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dharampalsolanki.dharamgo",
+            "certificate_hash": "4fe4b072cdd8085dff2bb267bfd8812de64bb2d5"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl4DkcYhPEQeQcwJ7Ssw0RYKXIWjPjEOg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dharampalsolanki.dharamgo.activity.CartDetails">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay"
+        android:layout_height="wrap_content"
+
+        android:background="#FF717E"
+        app:elevation="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+
+android:layout_marginTop="15dp"
+                    android:background="?attr/homeAsUpIndicator"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Cart ObJects"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+
+                <FrameLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/container_view">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/cartIcon"
+
+
+                        android:background="@drawable/white_cart_icon"
+                        android:layout_height="match_parent" android:layout_marginBottom="10dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <TextView
+                        android:layout_height="12dp"
+                        android:layout_width="12dp"
+                        android:textAlignment="center"
+
+                        android:textSize="8dp"
+                        android:layout_gravity="top|end"
+                        android:textColor="#000000"
+                        android:id="@+id/tab_counter_text"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/circle_white"/>
+
+                </FrameLayout>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_cart_details" />
+
+
+</android.support.design.widget.CoordinatorLayout>
